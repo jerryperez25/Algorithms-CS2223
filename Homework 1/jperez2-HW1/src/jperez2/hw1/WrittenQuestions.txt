@@ -1,0 +1,58 @@
+<<Jerry Perez>>
+HW1
+Written Questions
+
+Q1. Stack Experiments (30 Points):
+----------------------------------
+
+1.1. The output gives the value of 7.0. When the program completes the ops stack has a value of ["+"] and the vals stack has a value of ["2.0"].
+1.2. The output gives a value of 7.0. When the program completes the ops stack has a value of ["-"] and the vals stack has a value of [].
+1.3. The output gives a value of 99.0. When the program completes the ops stack has a value of ["-"] and the vals stack has a value of [].
+1.4. The output gives a value of 1.75. When the program completes the ops stack has a value of ["+", "*"] and the vals stack has a value of ["3.0","2.0"].
+1.5. The output gives a value of 4.625. When the program completes the ops stack has a value of [] and the vals stack has a value of [].
+1.6. Modified Code is attached with the given functions!
+1.7. The output gives a value of 2.0. When the program completes the ops stack has a value of [] and the vals stack has a value of [].
+
+Also be sure to copy Evaluate to USERID.hw1, modify it, and include in your submission.
+
+Q2. ArraySearch Programming Exercise (30 Points):
+----------------------------------------------
+
+2.1 Attached
+2.2 Attached, couldn't get it under goal. 
+2.3 Attached, couldn't get it under goal.
+
+Q3. Counting Computations Exercise (20 Points):
+-----------------------------------------------
+
+3.1 Enter formula for computing number of array inspections for UnknownArraySolution
+
+   f(n) = n^5 - 0.5(n^4) + 0.5(n^2)
+
+3.2 Enter formula for computing number of array inspections for ImprovedUnknownArraySolution
+
+   g(n) = n^5 - 1.5(n^4) - n^3 + 3.5(n^2)
+   
+
+Q4. Stack Programming Exercise (20 Points):
+-------------------------------------------
+
+4.1 Submit modified Computation 
+
+
+
+
+-------------------------------------------
+
+There are some bonus questions on the homework. If you attempt these, be sure to 
+clearly identify that you have done so in this written homework
+
+Q2.1.1 Bonus
+Q2.2.1 Bonus
+Q2.3.1 Bonus
+BQ5 FractalArraySolution
+
+
+
+
+

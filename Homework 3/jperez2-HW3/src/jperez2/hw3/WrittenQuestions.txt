@@ -1,0 +1,56 @@
+<<Jerry Perez>>
+HW3
+Written Questions
+
+Q1. HeapSort Empirical Evaluation 
+
+After running Question1.java, it seems that the empirical results support the proposition. This is because
+the max number of comparisons for all 10 trials for each number of elements (N) in the randomly 
+created heaps are less than 2N and the max number of exchanges is less than N. 
+
+
+Q2. Recurrence Relationship
+---------------------------
+
+Determine C(N) for BinaryArraySearch and determine the upper bound (worst case)
+and the lower bound (best case).
+
+Base Case:
+	C(1) = 1     -> also BEST CASE
+
+	C(N) = C(N/2)+1
+	C(N/2) = C(N/4)+1
+	C(N/4) = C(N/8)+1
+	C(N) = (C(N/4)+1)+1
+	C(N) = ((C(N/8)+1)+1)+1
+	C(N) = C(N/2^k)+k
+	C(N) = logN + C(1)
+	C(N) = logN + 1  -> WORST CASE
+	
+Best Case: 
+
+Exactly 1. If you get lucky enough you can find the correct element with the very first time it is run. 
+
+  
+
+Q3. Sorted Linked Lists (25 pts)
+--------------------------------
+
+Complete implementation
+
+The code provided runs with a better time than that proposed in the day 12 code with the same
+overall results! It is apparent that sorting the LinkedLists in ascending order within the SeparateSortChainingHashST 
+improves the performance of key operations for SequentialSearchSortedST (proven with the elapsed time between both programs).
+Q4. Binary Search Tree (45 pts)
+-------------------------------
+
+Submit your code for BST
+
+BONUS QUESTIONS
+
+None yet, but I hope to add a few this week.
+
+
+
+
+
